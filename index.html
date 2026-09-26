@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazanin Kazemi | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <button class="burger"onclick="showMenu()"aria-label="Open navigation menu">☰</button>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="welcome">Welcome to my portfolio</p>
+                <h1>Hi, I'm Nazanin Kazemi</h1>
+                <h2>Nursing Graduate & Web Development Learner</h2>
+                <p>I am currently learning HTML and CSS and developing my skills in web development.My goal is to build useful, responsive,and professional websites.</p>
+                <a href="#projects" class="btn">View My Projects</a>
+            </div>
+            <div class="hero-image">
+                <img src="nazi.jpg"alt="Profile photo of Nazanin Kazemi">
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me</p>
+            </div>
+            <div class="about-content">
+                <p>My name is Nazanin Kazemi.I am a nursing graduate with an interest in technology and web development.I enjoy learning new skills and improving myself through practical projects.</p>
+                <p>Currently, I am learning HTML and CSS as part of my web development journey.I am interested in creating clean,simple, and user-friendly websites.I also want to continue learning JavaScript and other technologies in the future.</p>
+            </div>
+        </section>
+        <div class="hero-images">
+            <img src="bahar.jpeg"alt="Profile photo of Nazanin Kazemi">
+        </div>
+        <section id="skills" class="skills section">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Technologies and skills I am learning</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Creating structured and semantic web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling websites with layouts, colors, spacing, and responsive design.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Flexbox</h3>
+                    <p>Creating flexible and responsive layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Learning version control and managing projects.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>GitHub</h3>
+                    <p>Uploading and sharing projects online.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Communication</h3>
+                    <p>Strong communication and teamwork skills.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects section">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Some projects I am working on</p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="bb.jpeg"alt="Personal portfolio project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive personal portfolio website created with HTML and CSS.</p>
+                        <a href="#"class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="nn.jpeg"alt="Student website project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Website</h3>
+                        <p>A simple responsive website created as part of my web development learning.</p>
+                        <a href="#"class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="m.jpeg"alt="HTML and CSS project">
+                    </div>
+                    <div class="project-content">
+                        <h3>HTML & CSS Project</h3>
+                        <p>A clean website using HTML,CSS, Flexbox and responsive design.</p>
+                        <a href="#"class="project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact section">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <p>Feel free to send me a message</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text"id="name"name="name"placeholder="Enter your full name"required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email"id="email"name="email"placeholder="Enter your email"required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message"name="message"rows="6"placeholder="Write your message here..."required></textarea>
+                </div>
+                <button type="submit"class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>©️ 2026 Nazanin Kazemi.All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/baharayoubi1?mibextid=wwXIfr&mibextid=wwXIfr"target="_blank"aria-label="Facebook">F</a>
+            <a href="https://www.instagram.com/its_bahar_ayoubi__official?stkn=MXMwNXBlcWt5NDh1eQ%3D%3D&utm_source=qr"target="_blank" aria-label="Instagram">I</a>
+            <a href="https://github.com/nazaninkazemi"target="_blank" aria-label="GitHub">G</a>
+            <a href="https://www.linkedin.com/in/nazanin-kazemi-840805325?utm_source=share_via&utm_content=profile&utm_medium=member_ios"target="_blank" aria-label="LinkedIn">L</a>
+        </div>
+    </footer>
+    <script>
+        function showMenu() {
+            const menu =document.querySelector(".menu");menu.classList.toggle("show");
+        }
+    </script>
+</body>
+</html
