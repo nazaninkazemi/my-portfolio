@@ -10,7 +10,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">My Portfolio</div>
-            <button class="burger"onclick="showMenu()"aria-label="Open navigation menu">☰</button>
+            <button class="burger"onclick="showMenu()" aria-label='Open navigation menu'>☰</button>  
             <div class="menu">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
@@ -27,7 +27,7 @@
                 <h1>Hi, I'm Nazanin Kazemi</h1>
                 <h2>Nursing Graduate & Web Development Learner</h2>
                 <p>I am currently learning HTML and CSS and developing my skills in web development.My goal is to build useful, responsive,and professional websites.</p>
-                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#projects" class="btn button">View My Projects</a>
             </div>
             <div class="hero-image">
                 <img src="nazi.jpg"alt="Profile photo of Nazanin Kazemi">
@@ -46,33 +46,57 @@
         <div class="hero-images">
             <img src="bahar.jpeg"alt="Profile photo of Nazanin Kazemi">
         </div>
+             <section class="features section" id="features">
+                <div class="section-title">
+                   <h2>Why My Work?</h2>
+                   <p>What I focus on while learning web development</p>
+        </div>
+        <div class="features-container">
+        <div class="feature-card card">
+            <div class="feature-icon">💻</div>
+              <h3>Responsive Design</h3>
+              <p> I create layouts that work smoothly on desktop, tablet, and mobile devices.
+              </p>
+        </div>
+        <div class="feature-card card">
+            <div class="feature-icon">🎨</div>
+            <h3>Clean Design</h3>
+            <p>I focus on clean layouts, readable content, consistent spacing, and simple user interfaces. </p>
+        </div>
+        <div class="feature-card card">
+            <div class="feature-icon">🚀</div>
+            <h3>Continuous Learning</h3>
+            <p> I am continuously learning new technologies and improving my web development skills.</p>
+        </div>
+      </div>
+     </section>
         <section id="skills" class="skills section">
             <div class="section-title">
                 <h2>My Skills</h2>
                 <p>Technologies and skills I am learning</p>
             </div>
             <div class="skills-container">
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>HTML</h3>
                     <p>Creating structured and semantic web pages.</p>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>CSS</h3>
                     <p>Styling websites with layouts, colors, spacing, and responsive design.</p>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>Flexbox</h3>
                     <p>Creating flexible and responsive layouts.</p>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>Git</h3>
                     <p>Learning version control and managing projects.</p>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>GitHub</h3>
                     <p>Uploading and sharing projects online.</p>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card card">
                     <h3>Communication</h3>
                     <p>Strong communication and teamwork skills.</p>
                 </div>
@@ -94,7 +118,7 @@
                         <a href="#"class="project-btn">View Project</a>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card card">
                     <div class="project-image">
                         <img src="nn.jpeg"alt="Student website project">
                     </div>
@@ -104,14 +128,14 @@
                         <a href="#"class="project-btn">View Project</a>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card card">
                     <div class="project-image">
                         <img src="m.jpeg"alt="HTML and CSS project">
                     </div>
                     <div class="project-content">
                         <h3>HTML & CSS Project</h3>
                         <p>A clean website using HTML,CSS, Flexbox and responsive design.</p>
-                        <a href="#"class="project-btn">View Project</a>
+                        <a href="#"class="project-btn button">View Project</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +158,7 @@
                     <label for="message">Message</label>
                     <textarea id="message"name="message"rows="6"placeholder="Write your message here..."required></textarea>
                 </div>
-                <button type="submit"class="submit-btn">Send Message</button>
+                <button type="submit"class="submit-btn button">Send Message</button>
             </form>
         </section>
     </main>
